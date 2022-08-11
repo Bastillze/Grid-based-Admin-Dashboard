@@ -1,26 +1,102 @@
 .wrapper{
 
  display: grid;
-
-
+width: 100%
 }
 
 .header{
 
 display: grid;
 
+background-color: aquamarine;
+
+width: 80%;
+
+height: 200px;
 
 }
+
+.searchBar {
+
+display: grid;
+
+background-color:cornflowerblue;
+
+grid-template-rows: 1fr;
+
+grid-template-columns: 1fr;
+
+}
+
+
+.adminLogin{
+
+display: grid;
+
+background-color:aqua;
+
+grid-template-rows: 1fr;
+
+
+}
+
+.adminPic{
+
+display:grid;
+
+background-color:crimson;
+
+}
+
+
+.adminButtons{
+
+display: grid;
+
+background-color:cadetblue;
+
+}
+
+
 
 .sideBar{
 
 display: grid;
 
+background-color:darkgoldenrod;
+
+width: 50%;
+
+height: 200px;;
+
 
 }
+
+
+.dashBoard{
+
+display: grid;
+
+background-color:darkmagenta;
+
+
+}
+
 
 .bodyContent{
 
 display: grid;
+
+background-color:darkgreen;
+
+}
+
+.yourProjects{
+
+
+display: grid;
+
+background-color:fuchsia;
+
 
 }
