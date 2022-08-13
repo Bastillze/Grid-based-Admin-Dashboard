@@ -1,7 +1,8 @@
 .wrapper{
 
  display: grid;
-width: 100%
+ grid-template-columns: repeat(3,1fr);
+
 }
 
 .header{
@@ -10,10 +11,13 @@ display: grid;
 
 background-color: aquamarine;
 
-width: 80%;
-
 height: 200px;
 
+grid-column-start: 1;
+
+grid-column-end: 6;
+
+grid-row-start: 1;
 }
 
 .searchBar {
@@ -26,6 +30,10 @@ grid-template-rows: 1fr;
 
 grid-template-columns: 1fr;
 
+grid-column-start: 2;
+
+grid-column-end: 4;
+
 }
 
 
@@ -37,6 +45,12 @@ background-color:aqua;
 
 grid-template-rows: 1fr;
 
+grid-column-start: 2;
+
+grid-column-end: 4;
+
+
+
 
 }
 
@@ -46,6 +60,12 @@ display:grid;
 
 background-color:crimson;
 
+grid-row-start: 1;
+
+grid-column-start: 4;
+
+grid-column-end: 6;
+
 }
 
 
@@ -54,6 +74,10 @@ background-color:crimson;
 display: grid;
 
 background-color:cadetblue;
+
+grid-column-start: 4;
+
+grid-column-end: 6;
 
 }
 
@@ -67,20 +91,18 @@ background-color:darkgoldenrod;
 
 width: 50%;
 
-height: 200px;;
+
+height: 800px;
+
+grid-column-start: 1;
+
+grid-row-start: 1;
 
 
 }
 
 
-.dashBoard{
 
-display: grid;
-
-background-color:darkmagenta;
-
-
-}
 
 
 .bodyContent{
@@ -88,6 +110,15 @@ background-color:darkmagenta;
 display: grid;
 
 background-color:darkgreen;
+
+height: 250px;
+
+grid-column-start: 2;
+
+
+grid-row-start: 2;
+
+grid-row-end: 4;
 
 }
 
@@ -98,5 +129,6 @@ display: grid;
 
 background-color:fuchsia;
 
+grid-column-start: 2;
 
 }
