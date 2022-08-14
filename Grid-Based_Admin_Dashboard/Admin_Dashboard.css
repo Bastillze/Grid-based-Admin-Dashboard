@@ -96,7 +96,7 @@ height: 800px;
 
 grid-column-start: 1;
 
-grid-row-start: 1;
+grid-row-start: 2;
 
 
 }
@@ -111,24 +111,82 @@ display: grid;
 
 background-color:darkgreen;
 
-height: 250px;
+height: 800px;
 
-grid-column-start: 2;
+grid-column-start: 1;
 
+grid-column-end: 6;
 
 grid-row-start: 2;
 
-grid-row-end: 4;
+grid-row-end: 6;
 
 }
 
+
 .yourProjects{
 
+ display: grid;
+
+ grid-template-columns: repeat(3, 1fr);
+
+ background-color: blueviolet;
+
+ grid-column-start: 2;
+
+ grid-column-end: 6;
+
+ grid-row-start: 2;
+
+ grid-row-end: 6;
+
+
+}
+
+
+.superProject{
 
 display: grid;
 
-background-color:fuchsia;
+grid-column-start: 1;
+
+grid-column-end: 2;
+
+background-color: darkred;
+
+column-gap: 50px;
+
+height: 300px;
+
+
+}
+
+.coolProject{
+
+display: grid;
 
 grid-column-start: 2;
+
+grid-column-end: 3;
+
+column-gap: 20px;
+
+background-color: deeppink;
+
+height: 300px;
+}
+
+
+.impossibleApp{
+
+display: grid;
+
+grid-row-start: 3;
+
+grid-row-end: 4;
+
+background-color: gold;
+
+
 
 }
