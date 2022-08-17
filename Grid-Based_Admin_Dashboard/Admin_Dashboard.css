@@ -150,13 +150,13 @@ display: grid;
 
 grid-column-start: 1;
 
-grid-column-end: 2;
+grid-column-end: 1;
 
 background-color: darkred;
 
 column-gap: 50px;
 
-height: 300px;
+height: 195px;
 
 
 }
@@ -167,13 +167,13 @@ display: grid;
 
 grid-column-start: 2;
 
-grid-column-end: 3;
+grid-column-end: 2;
 
 column-gap: 20px;
 
 background-color: deeppink;
 
-height: 300px;
+height: 195px;
 }
 
 
@@ -181,11 +181,80 @@ height: 300px;
 
 display: grid;
 
+grid-row-start: 2;
+
+grid-row-end: 3;
+
+background-color: gold;
+
+height: 195px;
+
+
+
+}
+
+.easyBreezyApp{
+
+display: grid;
+
+grid-column-start: 2;
+
+grid-row-start: 2;
+
+grid-row-end: 4;
+
+background-color: mediumseagreen;
+
+height: 195px;
+
+
+}
+
+.adBlocker{
+
+display: grid;
+
 grid-row-start: 3;
 
 grid-row-end: 4;
 
-background-color: gold;
+background-color: brown;
+
+height: 200px;
+
+}
+
+.moneyMaker{
+
+display:grid;
+
+grid-column-start: 2;
+
+grid-row-start: 3;
+
+grid-row-end: 4;
+
+background-color: darkblue;
+
+height:200px;
+
+}
+
+.announcements{
+
+display: grid;
+
+grid-column-start: 5;
+
+grid-row-start: 2;
+
+padding-right: 20px;
+
+background-color:indianred;
+
+
+
+height: 250px;
 
 
 
