@@ -91,7 +91,6 @@ background-color:darkgoldenrod;
 
 width: 50%;
 
-
 height: 800px;
 
 grid-column-start: 1;
@@ -102,7 +101,68 @@ grid-row-start: 2;
 }
 
 
+.dashBoard{
 
+display: grid;
+
+background-color:magenta; 
+
+
+
+}
+
+
+.home{
+
+display: grid;
+
+background-color:slateblue;
+
+}
+
+.profile{
+
+display: grid;
+
+background-color:darkslategrey;
+
+
+}
+
+
+.messages{
+
+display: grid;
+
+background-color: blue;
+    
+}
+
+.history{
+
+display: grid;
+
+background-color: indigo;
+
+
+}
+
+.tasks{
+
+    display: grid;
+
+    background-color:dimgrey;
+
+}
+
+.communities{
+
+display: grid;
+
+background-color:black;
+
+
+}
 
 
 .bodyContent{
@@ -252,10 +312,22 @@ padding-right: 20px;
 
 background-color:indianred;
 
-
-
 height: 250px;
 
 
+}
+
+.trending{
+
+display: grid;
+
+grid-column-start: 5;
+
+grid-row-start: 3;
+
+background-color:saddlebrown;
+
+height: 300px;
 
 }
+
