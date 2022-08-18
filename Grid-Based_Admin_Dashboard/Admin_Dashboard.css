@@ -165,6 +165,47 @@ background-color:black;
 }
 
 
+.space{
+
+display: grid;
+
+height: 20px;
+
+
+
+}
+
+
+.settings{
+
+display: grid;
+
+background-color: snow;
+
+
+}
+
+
+.support{
+
+display: grid;
+
+background-color:midnightblue;
+
+
+}
+
+
+.privacy{
+
+display: grid;
+
+background-color: limegreen;
+
+
+}
+
+
 .bodyContent{
 
 display: grid;
