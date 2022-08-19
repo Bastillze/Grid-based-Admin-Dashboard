@@ -9,12 +9,11 @@
 
   font-size:x-large;
 
-  font-weight:300;
+  font-weight:bolder;
 
   padding-left: 50px;
 
 }
-
 
 
 .header{
@@ -113,14 +112,27 @@ grid-column-start: 2;
 
 grid-column-end: 4;
 
+
+
 }
+
+.adminGreeting{
+
+font-size:x-large;
+
+font-weight:bolder;
+
+
+
+}
+
+
+
 
 .adminFace{
 
-    display: grid;
-    
-    
-    
+    display: flex;
+    align-items: center;
     
     }
     
@@ -143,7 +155,9 @@ grid-column-end: 6;
 
 .adminButtons{
 
-display: grid;
+display: inline-flex;
+
+align-items: center;
 
 background-color:cadetblue;
 
@@ -154,8 +168,39 @@ grid-column-end: 6;
 }
 
 
+.adButtons{
+
+display: inline-grid;
+
+justify-items: center;
+
+margin-left: 150px;
+
+border: none;
+
+color: white;
+
+border-radius: 50px;
+
+text-align: center;
+
+text-decoration: none;
+
+font-size: 20px;
+
+cursor: pointer;
+
+background-color:dodgerblue;
+
+
+}
+
+
+
 
 .sideBar{
+
+margin-top: 50px;
 
 display: grid;
 
@@ -280,6 +325,7 @@ background-color: limegreen;
 
 .bodyContent{
 
+  margin-top: 50px;
 display: grid;
 
 background-color:darkgreen;
