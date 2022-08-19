@@ -5,6 +5,18 @@
 
 }
 
+.name{
+
+  font-size:x-large;
+
+  font-weight:300;
+
+  padding-left: 50px;
+
+}
+
+
+
 .header{
 
 display: grid;
@@ -36,6 +48,58 @@ grid-column-end: 4;
 
 }
 
+.searchTogether{
+
+display: grid;
+
+align-content: center;
+
+justify-items: center;
+
+grid-auto-flow: column;
+
+gap: 0px;
+
+}
+
+
+input[type=text] {
+
+padding-right: 200px;
+
+ border: none;
+
+
+ font-size: 20px;
+
+
+}
+
+
+
+.bell{
+
+display: grid;
+
+align-items: center;
+
+justify-items: center;
+
+grid-auto-flow: column;
+
+
+}
+
+.adminPicAndName{
+
+    display: flex;
+
+  align-items: center;
+
+
+
+}
+
 
 .adminLogin{
 
@@ -49,10 +113,18 @@ grid-column-start: 2;
 
 grid-column-end: 4;
 
-
-
-
 }
+
+.adminFace{
+
+    display: grid;
+    
+    
+    
+    
+    }
+    
+
 
 .adminPic{
 
