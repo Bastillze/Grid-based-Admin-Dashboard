@@ -220,63 +220,151 @@ grid-row-start: 2;
 
 .dashBoard{
 
-display: grid;
+display: flex;
 
 background-color:magenta; 
+
+align-items:center;
 
 
 
 }
+
+.dash{
+
+font-size:x-large;
+
+font-weight:bolder;
+
+
+}
+
 
 
 .home{
 
-display: grid;
+display: flex;
 
 background-color:slateblue;
 
+align-items:center;
+
 }
+
+.house{
+
+font-size: xx-large;
+
+font-weight:bolder;
+
+
+}
+
+
 
 .profile{
 
-display: grid;
+display: flex;
 
 background-color:darkslategrey;
 
+align-items:center;
 
 }
+
+.person{
+
+font-size:xx-large;
+
+font-weight:bolder;
+
+
+}
+
+
 
 
 .messages{
 
-display: grid;
+display: flex;
 
 background-color: blue;
+
+align-items:center;
     
 }
 
+
+.mail{
+
+font-size:xx-large;
+
+font-weight:bolder;
+
+
+}
+
+
+
+
 .history{
 
-display: grid;
+display: flex;
 
 background-color: indigo;
 
+align-items:center;
+
 
 }
+
+.time{
+
+font-size:xx-large;
+
+font-weight:bolder;
+
+}
+
+
 
 .tasks{
 
-    display: grid;
+    display: flex;
 
     background-color:dimgrey;
 
+    align-items:center;
+
 }
+
+.calendar{
+
+font-size:xx-large;
+
+font-weight:bolder;
+
+}
+
+
 
 .communities{
 
-display: grid;
+display: flex;
 
 background-color:black;
+
+align-items:center;
+
+
+}
+
+
+.people{
+
+  font-size:xx-large;
+
+  font-weight:bolder;
 
 
 }
@@ -288,26 +376,49 @@ display: grid;
 
 height: 20px;
 
-
-
 }
+
+
 
 
 .settings{
 
-display: grid;
+display: flex;
 
 background-color: snow;
+
+align-items:center;
+
+
+}
+
+.gear{
+
+font-size:xx-large;
+
+font-weight:bolder;
+
+}
+
+
+
+.support{
+
+display: flex;
+
+background-color:midnightblue;
+
+align-items:center;
 
 
 }
 
 
-.support{
+.tech{
 
-display: grid;
+font-size:xx-large;
 
-background-color:midnightblue;
+font-weight:bolder;
 
 
 }
@@ -315,9 +426,20 @@ background-color:midnightblue;
 
 .privacy{
 
-display: grid;
+display: flex;
 
 background-color: limegreen;
+
+align-items:center;
+
+}
+
+
+.lock{
+
+font-size:xx-large;
+
+font-weight:bolder;
 
 
 }
