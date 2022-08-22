@@ -24,7 +24,7 @@ background-color: aquamarine;
 
 height: 200px;
 
-grid-column-start: 1;
+
 
 grid-column-end: 6;
 
@@ -206,13 +206,12 @@ display: grid;
 
 background-color:darkgoldenrod;
 
-width: 50%;
 
 height: 800px;
 
 grid-column-start: 1;
 
-grid-row-start: 2;
+grid-row-start: 1;
 
 
 }
@@ -447,7 +446,9 @@ font-weight:bolder;
 
 .bodyContent{
 
-  margin-top: 50px;
+  
+margin-top: 250px;
+
 display: grid;
 
 background-color:darkgreen;
@@ -458,7 +459,7 @@ grid-column-start: 1;
 
 grid-column-end: 6;
 
-grid-row-start: 2;
+grid-row-start: 1;
 
 grid-row-end: 6;
 
