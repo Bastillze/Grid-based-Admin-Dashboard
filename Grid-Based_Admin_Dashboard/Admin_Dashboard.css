@@ -20,7 +20,7 @@
 
 display: grid;
 
-background-color: aquamarine;
+background-color: whitesmoke;
 
 height: 200px;
 
@@ -35,7 +35,7 @@ grid-row-start: 1;
 
 display: grid;
 
-background-color:cornflowerblue;
+background-color: whitesmoke;
 
 grid-template-rows: 1fr;
 
@@ -104,7 +104,7 @@ grid-auto-flow: column;
 
 display: grid;
 
-background-color:aqua;
+background-color: whitesmoke;
 
 grid-template-rows: 1fr;
 
@@ -142,7 +142,7 @@ font-weight:bolder;
 
 display:grid;
 
-background-color:crimson;
+background-color: white;
 
 grid-row-start: 1;
 
@@ -159,7 +159,7 @@ display: inline-flex;
 
 align-items: center;
 
-background-color:cadetblue;
+background-color:white;
 
 grid-column-start: 4;
 
@@ -204,7 +204,7 @@ margin-top: 50px;
 
 display: grid;
 
-background-color:darkgoldenrod;
+background-color:dodgerblue;
 
 
 height: 800px;
@@ -238,7 +238,7 @@ font-size:x-large;
 
 display: flex;
 
-background-color:magenta; 
+background-color: dodgerblue; 
 
 align-items:center;
 
@@ -261,7 +261,7 @@ font-weight:bolder;
 
 display: flex;
 
-background-color:slateblue;
+background-color:dodgerblue;
 
 align-items:center;
 
@@ -282,7 +282,7 @@ font-weight:bolder;
 
 display: flex;
 
-background-color:darkslategrey;
+background-color:dodgerblue;
 
 align-items:center;
 
@@ -304,7 +304,7 @@ font-weight:bolder;
 
 display: flex;
 
-background-color: blue;
+background-color: dodgerblue;
 
 align-items:center;
     
@@ -327,7 +327,7 @@ font-weight:bolder;
 
 display: flex;
 
-background-color: indigo;
+background-color:dodgerblue;
 
 align-items:center;
 
@@ -348,7 +348,7 @@ font-weight:bolder;
 
     display: flex;
 
-    background-color:dimgrey;
+    background-color:dodgerblue;
 
     align-items:center;
 
@@ -368,7 +368,7 @@ font-weight:bolder;
 
 display: flex;
 
-background-color:black;
+background-color:dodgerblue;
 
 align-items:center;
 
@@ -401,7 +401,7 @@ height: 20px;
 
 display: flex;
 
-background-color: snow;
+background-color: dodgerblue;
 
 align-items:center;
 
@@ -422,7 +422,7 @@ font-weight:bolder;
 
 display: flex;
 
-background-color:midnightblue;
+background-color:dodgerblue;
 
 align-items:center;
 
@@ -444,7 +444,7 @@ font-weight:bolder;
 
 display: flex;
 
-background-color: limegreen;
+background-color: dodgerblue;
 
 align-items:center;
 
@@ -468,7 +468,7 @@ margin-top: 250px;
 
 display: grid;
 
-background-color:darkgreen;
+background-color:lightgray;
 
 height: 800px;
 
@@ -489,7 +489,7 @@ grid-row-end: 6;
 
  grid-template-columns: repeat(3, 1fr);
 
- background-color: blueviolet;
+ background-color: lightgray;
 
  grid-column-start: 3;
 
@@ -618,6 +618,35 @@ height: 250px;
 
 }
 
+.siteMain{
+
+display: flex;
+
+background-color: dimgrey;
+
+
+}
+
+
+.shareDay{
+
+display: flex;
+
+background-color:navy;
+
+}
+
+.policy{
+
+
+display: flex;
+
+background-color: purple;
+
+
+
+}
+
 .trending{
 
 display: grid;
@@ -631,6 +660,44 @@ background-color:saddlebrown;
 height: 300px;
 
 }
+
+
+.tegan{
+
+display: flex;
+
+background-color: tomato;
+
+
+}
+
+.morgan{
+
+display: flex;
+
+background-color: khaki;
+
+
+}
+
+.kendall{
+
+display: flex;
+background-color: aqua;
+
+
+}
+
+
+.alex{
+
+display: flex;
+
+background-color: burlywood;
+
+
+}
+
 
 
 h2{
