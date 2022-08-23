@@ -217,6 +217,23 @@ grid-row-start: 1;
 }
 
 
+.projects{
+
+display: grid;
+
+grid-column-start: 1;
+
+justify-items:last baseline;
+
+padding-right: 80px;
+
+font-weight: bolder;
+
+font-size:x-large;
+
+}
+
+
 .dashBoard{
 
 display: flex;
@@ -474,7 +491,7 @@ grid-row-end: 6;
 
  background-color: blueviolet;
 
- grid-column-start: 2;
+ grid-column-start: 3;
 
  grid-column-end: 6;
 
@@ -586,6 +603,8 @@ height:200px;
 
 display: grid;
 
+margin-top: 45px;
+
 grid-column-start: 5;
 
 grid-row-start: 2;
@@ -613,3 +632,19 @@ height: 300px;
 
 }
 
+
+h2{
+
+font-weight:bolder;
+
+
+}
+
+.text{
+
+display:block;
+
+align-items: center;
+
+
+}
