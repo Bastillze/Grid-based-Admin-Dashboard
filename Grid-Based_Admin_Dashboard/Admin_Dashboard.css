@@ -511,9 +511,9 @@ grid-column-start: 1;
 
 grid-column-end: 1;
 
-background-color: darkred;
+background-color:whitesmoke;
 
-column-gap: 50px;
+row-gap: 50px;
 
 height: 195px;
 
@@ -530,7 +530,7 @@ grid-column-end: 2;
 
 column-gap: 20px;
 
-background-color: deeppink;
+background-color: white;
 
 height: 195px;
 }
@@ -544,7 +544,7 @@ grid-row-start: 2;
 
 grid-row-end: 3;
 
-background-color: gold;
+background-color: whitesmoke;
 
 height: 195px;
 
@@ -562,7 +562,7 @@ grid-row-start: 2;
 
 grid-row-end: 4;
 
-background-color: mediumseagreen;
+background-color: white;
 
 height: 195px;
 
@@ -577,7 +577,7 @@ grid-row-start: 3;
 
 grid-row-end: 4;
 
-background-color: brown;
+background-color: white;
 
 height: 200px;
 
@@ -593,7 +593,7 @@ grid-row-start: 3;
 
 grid-row-end: 4;
 
-background-color: darkblue;
+background-color: white;
 
 height:200px;
 
@@ -611,7 +611,7 @@ grid-row-start: 2;
 
 padding-right: 20px;
 
-background-color:indianred;
+background-color:whitesmoke;
 
 height: 250px;
 
@@ -622,7 +622,7 @@ height: 250px;
 
 display: flex;
 
-background-color: dimgrey;
+background-color: whitesmoke;
 
 
 }
@@ -632,7 +632,7 @@ background-color: dimgrey;
 
 display: flex;
 
-background-color:navy;
+background-color:white;
 
 }
 
@@ -641,7 +641,7 @@ background-color:navy;
 
 display: flex;
 
-background-color: purple;
+background-color: whitesmoke;
 
 
 
@@ -655,7 +655,7 @@ grid-column-start: 5;
 
 grid-row-start: 3;
 
-background-color:saddlebrown;
+background-color:whitesmoke;
 
 height: 300px;
 
@@ -666,7 +666,7 @@ height: 300px;
 
 display: flex;
 
-background-color: tomato;
+background-color: whitesmoke;
 
 
 }
@@ -675,7 +675,7 @@ background-color: tomato;
 
 display: flex;
 
-background-color: khaki;
+background-color: whitesmoke;
 
 
 }
@@ -683,7 +683,7 @@ background-color: khaki;
 .kendall{
 
 display: flex;
-background-color: aqua;
+background-color: white;
 
 
 }
@@ -693,7 +693,7 @@ background-color: aqua;
 
 display: flex;
 
-background-color: burlywood;
+background-color: whitesmoke;
 
 
 }
